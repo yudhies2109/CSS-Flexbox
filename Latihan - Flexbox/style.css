@@ -40,14 +40,11 @@ body {
 /* Latihan 2 */
 
 .container-dua {
-    width: 800px;
+    max-width: 800px;
     margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
 }
 
 .layanan {
-    width: 30%;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -64,3 +61,15 @@ body {
     background-color: rgb(255, 124, 124);
 }
 
+/* Responsive */
+
+@media( min-width: 600px ) {
+    .container-dua {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .layanan {
+        width: 30%;
+    }
+}
