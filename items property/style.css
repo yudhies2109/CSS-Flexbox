@@ -1,0 +1,52 @@
+.container {
+    width: 600px;
+    height: 150px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* .container div {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(19, 133, 255);
+    margin: 2px;
+} */
+
+/* order : Urutan Items */
+/* .container .satu {
+    order: 3;
+}
+
+.container .dua {
+    order: 4;
+}
+
+.container .tiga {
+    order: 2;
+}
+
+.container .empat {
+    order: 1;
+} */
+
+/* flex-grow/flex (sorthand) : Ukuran Items */
+
+.container div {
+    background-color: rgb(19, 133, 255);
+    margin: 2px;
+    flex: 1;
+}
+
+/* Align self : Posisi salah satu posisi ukuran items */
+
+.container div.dua {
+    flex: 3;
+    align-self: flex-end;
+}
+
+
+
