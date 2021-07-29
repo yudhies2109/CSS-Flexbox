@@ -61,6 +61,20 @@ body {
     background-color: rgb(255, 124, 124);
 }
 
+/* latihan 3 */
+
+.container-tiga {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 50%;
+}
+
 /* Responsive */
 
 @media( min-width: 600px ) {
@@ -71,5 +85,9 @@ body {
 
     .layanan {
         width: 30%;
+    }
+
+    .thumbnail{
+        width: 25%;
     }
 }
