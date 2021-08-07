@@ -40,6 +40,23 @@ nav ul li a:hover {
     color: rgb(250, 240, 255);
 }
 
+/* Hamburger Menu */
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: rgb(234, 192, 255);
+    border-radius: 3px;
+}
+
 /* responsive */
 
 /* Ukuran Tablet */
