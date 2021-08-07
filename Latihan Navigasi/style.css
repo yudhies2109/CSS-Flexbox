@@ -39,3 +39,21 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(250, 240, 255);
 }
+
+/* responsive */
+
+/* Ukuran Tablet */
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+/* Ukuran Tablet */
+
+@media screen and (max-width: 576px) {
+    nav ul {
+        display: none;
+    }
+}
