@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 /* Navbar */
@@ -124,5 +125,13 @@ nav ul li a:hover {
         align-items: center;
         background-color: rgb(180, 78, 232);
         z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
